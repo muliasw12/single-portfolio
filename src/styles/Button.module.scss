@@ -1,0 +1,23 @@
+.button {
+	height: 3.5rem;
+
+	& .btn {
+		color: var(--white);
+		text-transform: uppercase;
+		font-size: 1.6rem;
+		font-weight: bold;
+		line-height: 1.625;
+		letter-spacing: 0.229rem;
+		text-decoration: none;
+		padding-bottom: 1rem;
+		border: none;
+		border-bottom: 2px solid var(--green);
+		transition: color 0.4s;
+		background-color: transparent;
+		cursor: pointer;
+
+		&:hover {
+			color: var(--green);
+		}
+	}
+}

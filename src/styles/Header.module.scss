@@ -1,0 +1,18 @@
+@import './breakpoints.scss';
+@import './mixin.scss';
+
+.header {
+	position: absolute;
+	top: 2rem;
+	left: 50%;
+	transform: translateX(-50%);
+	z-index: 5;
+
+	@include mq(md) {
+		top: 3rem;
+	}
+
+	@include mq(lg) {
+		top: 4rem;
+	}
+}
